@@ -1,0 +1,10 @@
+apa itu fork dan pull request
+
+Fork adalah menyalin atau mengambil salinan dari repo Git orang lain dan menjadikan salinan tersbut menjadi repo milik kita. 
+Fork biasanya digunakan untuk membuat perubahan atau memodifikasi pda proyek dalam repo tanpa mengubah repo aslinya. 
+Kontributor juga dapat melakukan perubahan di fork mereka sendiri dan kemudian mengajukan pull request untuk menggabungkan 
+perubahan mereka ke repositori asli.
+
+pull request adalah permintaan untuk menggabungkan perubahan dari sebuah cabang atau fork ke repositori asli atau repo 
+yang kita fork. Biasanya pull request dilakukan agar pemilik repo asli bisa meninjau atau melihat repo fork dan menggabungkan 
+perubahan itu ke repo utama.

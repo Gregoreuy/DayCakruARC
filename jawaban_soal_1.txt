@@ -1,0 +1,14 @@
+Apa itu Merge Conflict dan cara menanggulanginya?
+
+Dalam git merge conflict adalah sebuah perisitwa ketika git tidak bisa secara ototmatis menerapkan 
+perubahan file akibat terjadi dua atau lebih commmit pada file atau code yang sama di dua cabang yang berbeda.
+merge conflict juga bisa terjadi ketika terdapat perbedaan file karena dihapus atau diubah
+
+Cara meresolve merge conflict:
+edit manual perubahan dan pastikan ada persetujuan dan komunikasi dengan pihak yang melakukan perubahan.
+tentukan apa yang harus di keep apa yang harus di buang.
+
+untuk mencegah terjadinya merge conflict:
+1. Lakukan pull sebelum push pada branch sumber agar memastikan bahwa tidak ada lagi perubahan yang tertinggal sebelum melakukan perubahan.
+2. Lakukan perubahan kecil dan bertahap. semakin kecil perubahan artinya semakin kecil juga potensi contradictory antar perubahan sehingga apabila tetap terjadi merge me-resolvenya juga menjadi lebih mudah\
+3. Rebase. jangan lupa untuk rebase dari branch utama ke branch yang sedang digunakan sebelum melakkan perubahan
